@@ -9,6 +9,7 @@ public class FizzBuzzScanner {
 		System.out.println("Please type a number from 1 to 100");
 		int input = scan.nextInt();
 		System.out.println("FizzBuzz will now start from: " + input);
+		scan.close();
 		return input;
 		
 	}
