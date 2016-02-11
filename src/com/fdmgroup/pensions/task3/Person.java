@@ -4,7 +4,7 @@ public class Person {
 	private String firstname;
 	private String lastname;
 	private String dateOfBirth;
-	
+
 	public String getFirstname() {
 		return firstname;
 	}
@@ -23,6 +23,5 @@ public class Person {
 	public void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
-	
 	
 }
